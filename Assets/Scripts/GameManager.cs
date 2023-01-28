@@ -4,8 +4,6 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instanse;
-
     [SerializeField] Transform startPosition;
     [SerializeField] GameObject[] gems; 
     [SerializeField] Transform[] gemsPositions;
@@ -15,24 +13,20 @@ public class GameManager : MonoBehaviour
     private int score;
     private int gemsCount;    
 
+    public static GameManager instance;
+
     private void Awake() 
     {
-        instanse=this;
+        instance=this;
         StartCoroutine(HelpRoutine());
+        NewGame();
     }
 
-    private void Start() 
+    private void NewGame() 
     {
         score=0;
         scoreText.text="Score: "+score;
         SpawnGems();    
-    }
-
-    private IEnumerator HelpRoutine()
-    {
-        help.SetActive(true);
-        yield return new WaitForSeconds(3.0f);
-        help.SetActive(false);
     }
 
     private void SpawnGems()
@@ -66,12 +60,19 @@ public class GameManager : MonoBehaviour
         SpawnGems();
     }
 
+    private IEnumerator HelpRoutine()
+    {
+        help.SetActive(true);
+        yield return new WaitForSeconds(3.0f);
+        help.SetActive(false);
+    }
+
      private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.CompareTag("Player"))
         {            
             other.transform.position=startPosition.position;
-            Start();            
+            NewGame();            
         }
     }
 }

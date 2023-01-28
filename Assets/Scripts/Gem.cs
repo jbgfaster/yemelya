@@ -2,18 +2,26 @@ using UnityEngine;
 
 public class Gem : MonoBehaviour
 {
-    [SerializeField] string gemColor="Yellow";
+    [SerializeField] private GemColor gemColor;
 
     void Start()
     {
-        GetComponent<Animator>().Play(gemColor);
+        GetComponent<Animator>().Play(gemColor.ToString());
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.CompareTag("Player"))
         {
-            GameManager.instanse.TakeGem();
+            GameManager.instance.TakeGem();
             Destroy(gameObject);
         }
+    }
+
+    private enum GemColor
+    {
+        Yellow,
+        Green,
+        Blue,
+        Pink
     }
 }

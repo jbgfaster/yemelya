@@ -115,7 +115,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &4461157906446505679
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -132,7 +132,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!114 &4461157906446505678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,4 +145,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6f45a4423f7b954aa48e3ad112ebd72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gemColor: Pink
+  gemColor: 3
