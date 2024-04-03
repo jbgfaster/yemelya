@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: ebd93521f852eb84b9cd1802f1d088f0
+guid: 844c5f4c7e0f1ff498fa68916e3bb5f6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -74,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -86,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -98,13 +103,14 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: crystal-qubodup-ccby3-16-green_0
+      name: crystal-qubodup-ccby3-16-blue_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: becb08bb39449bb45b3e039891c51474
-      internalID: 1233986748
+      spriteID: 8617382832c0d954e98a392a97d2352f
+      internalID: 669501252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crystal-qubodup-ccby3-16-green_1
+      name: crystal-qubodup-ccby3-16-blue_1
       rect:
         serializedVersion: 2
         x: 16
@@ -139,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4b975cd8aeeae44b9d4190071a7a273
-      internalID: 725415214
+      spriteID: a89aa93f83d15434e82846de6652d2a3
+      internalID: -524045270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crystal-qubodup-ccby3-16-green_2
+      name: crystal-qubodup-ccby3-16-blue_2
       rect:
         serializedVersion: 2
         x: 32
@@ -160,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1490ca2939f06c4468510c202560e432
-      internalID: 1212093202
+      spriteID: a45c51bee8d31184b917f5bb47c94921
+      internalID: 1829821551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crystal-qubodup-ccby3-16-green_3
+      name: crystal-qubodup-ccby3-16-blue_3
       rect:
         serializedVersion: 2
         x: 48
@@ -181,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e2054be6cc1c1342a42348f8f8ee773
-      internalID: 1052933575
+      spriteID: 9456edbc51feea741bc3aed59d7e3f98
+      internalID: 1644871556
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crystal-qubodup-ccby3-16-green_4
+      name: crystal-qubodup-ccby3-16-blue_4
       rect:
         serializedVersion: 2
         x: 64
@@ -202,14 +208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48049fd501b3a2a4b8699b35250b90b0
-      internalID: 1604754561
+      spriteID: 9ae3bf4a2f0563a40a894e71b16cca32
+      internalID: 250467396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crystal-qubodup-ccby3-16-green_5
+      name: crystal-qubodup-ccby3-16-blue_5
       rect:
         serializedVersion: 2
         x: 80
@@ -223,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00b240b377dcea5488f09e69c5a91baa
-      internalID: -1417967621
+      spriteID: 3ed911f0e8a29f841947e6767e8a6a21
+      internalID: -2032624525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crystal-qubodup-ccby3-16-green_6
+      name: crystal-qubodup-ccby3-16-blue_6
       rect:
         serializedVersion: 2
         x: 96
@@ -244,14 +250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57dc68d8fe2af694ba084435b51d0c90
-      internalID: 146196498
+      spriteID: 9f4859df29a312348a5a5992e0108f8e
+      internalID: -2074049911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crystal-qubodup-ccby3-16-green_7
+      name: crystal-qubodup-ccby3-16-blue_7
       rect:
         serializedVersion: 2
         x: 112
@@ -265,8 +271,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2dfa9d4e908618f4aa43663bd65ab44b
-      internalID: 422589540
+      spriteID: f2c5e178f09e4f34db04823bbe9b66b5
+      internalID: -1815090394
       vertices: []
       indices: 
       edges: []
@@ -282,17 +288,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      crystal-qubodup-ccby3-16-green_7: 422589540
-      crystal-qubodup-ccby3-16-green_4: 1604754561
-      crystal-qubodup-ccby3-16-green_2: 1212093202
-      crystal-qubodup-ccby3-16-green_0: 1233986748
-      crystal-qubodup-ccby3-16-green_5: -1417967621
-      crystal-qubodup-ccby3-16-green_3: 1052933575
-      crystal-qubodup-ccby3-16-green_6: 146196498
-      crystal-qubodup-ccby3-16-green_1: 725415214
-  spritePackingTag: 
+      crystal-qubodup-ccby3-16-blue_0: 669501252
+      crystal-qubodup-ccby3-16-blue_1: -524045270
+      crystal-qubodup-ccby3-16-blue_2: 1829821551
+      crystal-qubodup-ccby3-16-blue_3: 1644871556
+      crystal-qubodup-ccby3-16-blue_4: 250467396
+      crystal-qubodup-ccby3-16-blue_5: -2032624525
+      crystal-qubodup-ccby3-16-blue_6: -2074049911
+      crystal-qubodup-ccby3-16-blue_7: -1815090394
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

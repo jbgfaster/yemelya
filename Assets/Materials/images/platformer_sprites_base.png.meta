@@ -3,7 +3,7 @@ guid: f3207038159135b488ac5f8d98bce376
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -74,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -86,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -98,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1479,74 +1485,73 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      platformer_sprites_base_38: 2004692869
-      platformer_sprites_base_29: 1805610834
-      platformer_sprites_base_42: -35102388
-      platformer_sprites_base_3: -662924353
-      platformer_sprites_base_9: 221132670
-      platformer_sprites_base_22: -1822724967
-      platformer_sprites_base_31: -1374709168
-      platformer_sprites_base_49: -1904575633
-      platformer_sprites_base_50: -1840674875
-      platformer_sprites_base_61: -1684050104
-      platformer_sprites_base_7: 344378240
-      platformer_sprites_base_46: -1365186031
-      platformer_sprites_base_27: 1998308907
-      platformer_sprites_base_21: 1823361742
-      platformer_sprites_base_35: 740769453
-      platformer_sprites_base_30: -1340979045
-      platformer_sprites_base_62: 404052564
-      platformer_sprites_base_1: -1527243229
-      platformer_sprites_base_48: -1582648626
-      platformer_sprites_base_26: -755168963
-      platformer_sprites_base_55: 1574570735
-      platformer_sprites_base_10: 1283348560
-      platformer_sprites_base_28: -174203291
-      platformer_sprites_base_33: -68489186
-      platformer_sprites_base_12: 622910070
-      platformer_sprites_base_20: 77085338
-      platformer_sprites_base_24: 1627837678
-      platformer_sprites_base_19: 438784076
-      platformer_sprites_base_53: -1676071784
-      platformer_sprites_base_51: -372485129
-      platformer_sprites_base_4: -1316452649
-      platformer_sprites_base_34: -1816667204
-      platformer_sprites_base_16: -966235409
-      platformer_sprites_base_54: 16521559
-      platformer_sprites_base_13: 1742263715
-      platformer_sprites_base_37: -971052643
-      platformer_sprites_base_18: -854930596
-      platformer_sprites_base_5: 1113763883
-      platformer_sprites_base_36: 1154602015
-      platformer_sprites_base_58: 1833367541
-      platformer_sprites_base_56: 254689414
-      platformer_sprites_base_63: -1862721277
-      platformer_sprites_base_59: -552731355
-      platformer_sprites_base_64: -814078460
-      platformer_sprites_base_6: -450716592
-      platformer_sprites_base_52: 525650552
-      platformer_sprites_base_14: 1578475245
-      platformer_sprites_base_41: -1833794873
-      platformer_sprites_base_40: 916093094
-      platformer_sprites_base_17: 2067424591
-      platformer_sprites_base_11: 876565004
-      platformer_sprites_base_60: 1915137849
-      platformer_sprites_base_39: 493911830
-      platformer_sprites_base_44: 322279055
-      platformer_sprites_base_47: 1427990386
-      platformer_sprites_base_8: 1887803898
-      platformer_sprites_base_23: -438226463
-      platformer_sprites_base_57: -1325854446
       platformer_sprites_base_0: -1812991705
-      platformer_sprites_base_25: 329832880
+      platformer_sprites_base_1: -1527243229
+      platformer_sprites_base_10: 1283348560
+      platformer_sprites_base_11: 876565004
+      platformer_sprites_base_12: 622910070
+      platformer_sprites_base_13: 1742263715
+      platformer_sprites_base_14: 1578475245
       platformer_sprites_base_15: -1677767030
-      platformer_sprites_base_43: -1852602126
+      platformer_sprites_base_16: -966235409
+      platformer_sprites_base_17: 2067424591
+      platformer_sprites_base_18: -854930596
+      platformer_sprites_base_19: 438784076
       platformer_sprites_base_2: 1087507370
+      platformer_sprites_base_20: 77085338
+      platformer_sprites_base_21: 1823361742
+      platformer_sprites_base_22: -1822724967
+      platformer_sprites_base_23: -438226463
+      platformer_sprites_base_24: 1627837678
+      platformer_sprites_base_25: 329832880
+      platformer_sprites_base_26: -755168963
+      platformer_sprites_base_27: 1998308907
+      platformer_sprites_base_28: -174203291
+      platformer_sprites_base_29: 1805610834
+      platformer_sprites_base_3: -662924353
+      platformer_sprites_base_30: -1340979045
+      platformer_sprites_base_31: -1374709168
       platformer_sprites_base_32: -349204837
+      platformer_sprites_base_33: -68489186
+      platformer_sprites_base_34: -1816667204
+      platformer_sprites_base_35: 740769453
+      platformer_sprites_base_36: 1154602015
+      platformer_sprites_base_37: -971052643
+      platformer_sprites_base_38: 2004692869
+      platformer_sprites_base_39: 493911830
+      platformer_sprites_base_4: -1316452649
+      platformer_sprites_base_40: 916093094
+      platformer_sprites_base_41: -1833794873
+      platformer_sprites_base_42: -35102388
+      platformer_sprites_base_43: -1852602126
+      platformer_sprites_base_44: 322279055
       platformer_sprites_base_45: -130342097
-  spritePackingTag: 
+      platformer_sprites_base_46: -1365186031
+      platformer_sprites_base_47: 1427990386
+      platformer_sprites_base_48: -1582648626
+      platformer_sprites_base_49: -1904575633
+      platformer_sprites_base_5: 1113763883
+      platformer_sprites_base_50: -1840674875
+      platformer_sprites_base_51: -372485129
+      platformer_sprites_base_52: 525650552
+      platformer_sprites_base_53: -1676071784
+      platformer_sprites_base_54: 16521559
+      platformer_sprites_base_55: 1574570735
+      platformer_sprites_base_56: 254689414
+      platformer_sprites_base_57: -1325854446
+      platformer_sprites_base_58: 1833367541
+      platformer_sprites_base_59: -552731355
+      platformer_sprites_base_6: -450716592
+      platformer_sprites_base_60: 1915137849
+      platformer_sprites_base_61: -1684050104
+      platformer_sprites_base_62: 404052564
+      platformer_sprites_base_63: -1862721277
+      platformer_sprites_base_64: -814078460
+      platformer_sprites_base_7: 344378240
+      platformer_sprites_base_8: 1887803898
+      platformer_sprites_base_9: 221132670
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
