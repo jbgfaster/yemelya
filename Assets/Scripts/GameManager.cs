@@ -15,28 +15,29 @@ public class GameManager : MonoBehaviour
 
     public static GameManager instance;
 
-    private void Awake() 
+
+    void Awake() 
     {
-        instance=this;
+        instance = this;
         StartCoroutine(HelpRoutine());
         NewGame();
     }
 
     private void NewGame() 
     {
-        score=0;
-        scoreText.text="Score: "+score;
+        score = 0;
+        scoreText.text="Score: " + score;
         SpawnGems();    
     }
 
     private void SpawnGems()
     {
-        gemsCount=0;
+        gemsCount = 0;
         foreach(Transform i in gemsPositions)
         {
-            if(i.GetComponentInChildren<Gem>()!=null)
+            if(i.GetComponentInChildren<Gem>() != null)
                 Destroy(i.GetComponentInChildren<Gem>().gameObject);
-            if(Random.Range(0,2)==0)
+            if(Random.Range(0,2) == 0)
             {
                 Instantiate(gems[Random.Range(0,gems.Length)],i.position,i.rotation,i);
                 gemsCount++;
@@ -47,7 +48,7 @@ public class GameManager : MonoBehaviour
     public void TakeGem()
     {
         gemsCount--;
-        if(gemsCount<=0)
+        if(gemsCount <= 0)
         {
             NewRound();
         }
@@ -56,7 +57,7 @@ public class GameManager : MonoBehaviour
     public void NewRound()
     {
         score++;
-        scoreText.text="Score: "+score;
+        scoreText.text = "Score: " + score;
         SpawnGems();
     }
 
@@ -67,11 +68,11 @@ public class GameManager : MonoBehaviour
         help.SetActive(false);
     }
 
-     private void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         if(other.CompareTag("Player"))
         {            
-            other.transform.position=startPosition.position;
+            other.transform.position = startPosition.position;
             NewGame();            
         }
     }
